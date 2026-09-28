@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/vetframe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vet encode/decode helpers for frame payloads in pipelines.",
+  "bin": {
+    "vetframe": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/vetframe.git"
+  },
+  "homepage": "https://theworker02.github.io/vetframe/",
+  "keywords": [
+    "vet",
+    "frame",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
